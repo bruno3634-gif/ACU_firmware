@@ -1,12 +1,13 @@
 # ACU_firmware
 
-LART T24_E (Voidster) Safety Device Project
+# LART T24_E (Voidster) Safety Device Project
+
 This project is developed for the Leiria Academic Racing Team (LART) and focuses on the T24_E vehicle, affectionately known as "Voidster."
 
-Overview
+#Overview
 The primary goal of this unit is to serve as a crucial safety device for the vehicle's autonomous control system. It is designed to monitor and manage the vehicle's operations when in autonomous mode, ensuring safety and reliability.
 
-Key Features
+# Key Features
 Emergency Brake System (EBS) Activation: Enables the emergency brake system to ensure immediate vehicle halting in critical situations.
 
 Pneumatic Pressure Monitoring: Reads pneumatic pressure from the EBS actuators to monitor their functionality.
@@ -19,5 +20,5 @@ Autonomous System Status Indicator (ASSI) Control: Manages the ASSI based on the
 
 Emergency Shutdown Circuit: Engages the shutdown circuit automatically in case of emergencies.
 
-Technical Details
+# Technical Details
 The firmware for this unit is developed to run on a Teensy 4.1 microcontroller. It communicates with the vehicle's autonomous computer and other systems via a CAN bus, enabling efficient data exchange and control.
